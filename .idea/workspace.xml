@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61c2d00c-3476-43ce-b3c7-fe7b71c239a0" name="Changes" comment="연관관계 매핑/ 상속 관계 매핑">
+    <list default="true" id="61c2d00c-3476-43ce-b3c7-fe7b71c239a0" name="Changes" comment="지연로딩, 연관관계 관리">
+      <change afterPath="$PROJECT_DIR$/src/main/java/jpaShop/domain/Address.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jpaShop/domain/Delivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpaShop/domain/Delivery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jpaShop/domain/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpaShop/domain/Member.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,14 +33,14 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/ddoly/Downloads/jpa study/JpaStudy_1/pom.xml"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ddoly/Downloads/jpa study/jpa_practice/pom.xml&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="jpaShop.domain" />
@@ -69,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671529534622</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="지연로딩, 연관관계 관리">
+      <created>1671619254333</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671619254333</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -86,6 +96,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="jpa 쇼핑몰" />
     <MESSAGE value="연관관계 매핑/ 상속 관계 매핑" />
-    <option name="LAST_COMMIT_MESSAGE" value="연관관계 매핑/ 상속 관계 매핑" />
+    <MESSAGE value="지연로딩, 연관관계 관리" />
+    <option name="LAST_COMMIT_MESSAGE" value="지연로딩, 연관관계 관리" />
   </component>
 </project>

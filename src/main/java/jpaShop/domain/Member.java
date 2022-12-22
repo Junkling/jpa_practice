@@ -14,6 +14,12 @@ public class Member {
 
     private String name;
 
+    @OneToMany(mappedBy = "member")
+    private List<Orders> orders = new ArrayList<>();
+
+    @Enumerated
+    private Address address;
+
     public List<Orders> getOrders() {
         return orders;
     }
@@ -22,12 +28,8 @@ public class Member {
         this.orders = orders;
     }
 
-    private String city;
-    private String street;
-    private String zipCode;
 
-    @OneToMany(mappedBy = "member")
-    private List<Orders> orders = new ArrayList<>();
+
 
 
     public Long getId() {
@@ -46,27 +48,11 @@ public class Member {
         this.name = name;
     }
 
-    public String getCity() {
-        return city;
+    public Address getAddress() {
+        return address;
     }
 
-    public void setCity(String city) {
-        this.city = city;
-    }
-
-    public String getStreet() {
-        return street;
-    }
-
-    public void setStreet(String street) {
-        this.street = street;
-    }
-
-    public String getZipCode() {
-        return zipCode;
-    }
-
-    public void setZipCode(String zipCode) {
-        this.zipCode = zipCode;
+    public void setAddress(Address address) {
+        this.address = address;
     }
 }
